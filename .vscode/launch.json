@@ -1,0 +1,38 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "name": "js:nodemon",
+      "program": "${workspaceFolder}/js",
+      "request": "launch",
+      "restart": true,
+      "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/nodemon",
+      "args": [
+        "--watch",
+        "js"
+      ],      
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node"
+    },
+    {
+      "name": "js:mocha",
+      "request": "launch",
+      "runtimeArgs": [
+        "run-script",
+        "js:mocha"
+      ],
+      "runtimeExecutable": "npm",
+      "skipFiles": [
+        "<node_internals>/**"
+      ],
+      "type": "node"
+    }
+  ]
+}
