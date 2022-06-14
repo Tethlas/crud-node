@@ -1,0 +1,16 @@
+{
+  "env": {
+      "browser": true,
+      "es2021": true,
+      "node": true
+  },
+  "extends": [
+      "plugin:react/recommended",
+      "airbnb",
+      "airbnb-base"
+  ],
+  "rules": {
+      "linebreak-style": ["error", "windows"],
+      "react/jsx-curly-spacing": [2, {"when": "always", "allowMultiline": false}]
+  }
+}
