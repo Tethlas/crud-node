@@ -1,6 +1,6 @@
 /* eslint-disable import/extensions */
-import usersValidations from '../schemas/usersValidations';
-import validations from '../schemas/geneticValidations';
+import usersValidations from '../schemas/usersValidations.js';
+import validations from '../schemas/geneticValidations.js';
 import userModel from '../models/userModel.js';
 
 const { errorObjects } = usersValidations;

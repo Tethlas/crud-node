@@ -39,6 +39,4 @@ const errorObjects = {
   },
 };
 
-const usersValidations = { errorMessages, errorObjects };
-
-export default usersValidations;
+export default { errorMessages, errorObjects };
