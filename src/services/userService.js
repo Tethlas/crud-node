@@ -14,6 +14,11 @@ const getAllUsers = async () => {
   return users;
 };
 
+const getUserById = async (id) => {
+
+};
+
 export default {
   getAllUsers,
+  getUserById,
 };

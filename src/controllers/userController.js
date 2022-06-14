@@ -10,6 +10,11 @@ const getAllUsers = async (_req, res, next) => {
   return res.status(httpCodes.OK).json(users);
 };
 
+const getUserById = (req, res) => {
+
+};
+
 export default {
   getAllUsers,
+  getUserById,
 };
