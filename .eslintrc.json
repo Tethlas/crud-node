@@ -6,7 +6,8 @@
   },
   "extends": [
       "plugin:react/recommended",
-      "airbnb"
+      "airbnb",
+      "airbnb-base"
   ],
   "rules": {
       "linebreak-style": ["error", "windows"],
