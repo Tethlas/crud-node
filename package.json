@@ -5,9 +5,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha tests",
     "lint": "eslint 'src/**/*.js' --fix",
-    "format": "prettier-eslint 'server/**/*.{js,json}' --write"
+    "format": "prettier-eslint 'server/**/*.{js,json}' --write",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
